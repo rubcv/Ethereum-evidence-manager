@@ -24,12 +24,12 @@ Para el servidor web:
 Para ejecutar:
 
 * Dirigirse al directorio SRC con la terminal
-* Ejecutar ./recompile.sh
+* Ejecutar ./recompile.sh <br>
 &nbsp;&nbsp;&nbsp;&nbsp; recompile.sh: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> rm -r -d build <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> truffle compile <br>
  * Ejecutar Ganache-GUI
- * Ejecutar app.js 
+ * Ejecutar app.js <br>
 &nbsp;&nbsp;&nbsp;&nbsp;> node app.js <br>
-* Dirigirse a un navegador Chrome con Metamask instalado:
+* Dirigirse a un navegador Chrome con Metamask instalado: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;> localhost:8888 <br>
