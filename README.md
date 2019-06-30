@@ -29,16 +29,16 @@ Para el servidor web:
 &nbsp;&nbsp;&nbsp;&nbsp; recompile.sh: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> rm -r -d build <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> truffle compile <br>
-Este comando compila los contratos del directorio **contracts** con **Truffle** <br>
+Este comando compila los contratos del directorio **contracts/** con **Truffle** <br>
  * Ejecutar Ganache-GUI
  * Abrir el proyecto .../SRC/**truffle-config.js** con **Ganache-GUI** <br>
- Ejecutar: <br>
+ Ejecutar en una terminal a parte: <br>
  * $ truffle developer
  * $ truffle(developer)> migrate <br>
 Con estos comandos migramos los contratos a la red de **Ganache** <br>
+En otra terminal a parte, ejecutar: <br>
  * $ node app.js <br>
  Con este comando ejecutamos el servidor <br>
-&nbsp;&nbsp;&nbsp;&nbsp;> node app.js <br>
-* Dirigirse a un navegador Chrome con Metamask instalado: <br>
+* Dirigirse a la siguiente dirección en un navegador Chrome con Metamask instalado: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;> localhost:8888 <br>
-* Guardar la evidencia deseada, podremos ver el resultado de la transacción con **Metamask** y el resultado del guardado con **Ganache**
+* En la web, guardar la evidencia deseada, podremos ver el resultado de la transacción con **Metamask** y el resultado del guardado con **Ganache**
