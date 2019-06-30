@@ -25,11 +25,11 @@ Para ejecutar:
 
 * Dirigirse al directorio SRC con la terminal
 * Ejecutar ./recompile.sh
-&nbsp;&nbsp;&nbsp;&nbsp; recompile.sh:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> rm -r -d build
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> truffle compile
+&nbsp;&nbsp;&nbsp;&nbsp; recompile.sh: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> rm -r -d build <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> truffle compile <br>
  * Ejecutar Ganache-GUI
  * Ejecutar app.js 
-&nbsp;&nbsp;&nbsp;&nbsp;> node app.js
+&nbsp;&nbsp;&nbsp;&nbsp;> node app.js <br>
 * Dirigirse a un navegador Chrome con Metamask instalado:
-&nbsp;&nbsp;&nbsp;&nbsp;> localhost:8888
+&nbsp;&nbsp;&nbsp;&nbsp;> localhost:8888 <br>
