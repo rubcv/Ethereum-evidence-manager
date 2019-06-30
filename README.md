@@ -15,6 +15,7 @@
 * npm install -g ethereumjs-testrpc (Hacer pruebas sin GUI)
 * npm install -g ganache-cli (Hacer pruebas sin GUI)
 * npm install web3-providers-http
+* npm install -g json-parser
 
 Para el servidor web:
 * npm install -g express
@@ -24,8 +25,8 @@ Para ejecutar:
 
 * Dirigirse al directorio SRC con la terminal
 * Ejecutar ./recompile.sh
-      recompile.sh:
-          > rm -r -d build
+      :recompile.sh:
+        : > rm -r -d build
           > truffle compile
  * Ejecutar Ganache-GUI
  * Ejecutar app.js 
