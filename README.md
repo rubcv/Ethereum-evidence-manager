@@ -41,4 +41,4 @@ En otra terminal a parte, ejecutar: <br>
  Con este comando ejecutamos el servidor <br>
 * Dirigirse a la siguiente dirección en un navegador Chrome con Metamask instalado: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;> localhost:8888 <br>
-* En la web, guardar la evidencia deseada, podremos ver el resultado de la transacción con **Metamask** y el resultado del guardado con **Ganache**
+* En la web, guardar la evidencia deseada, podremos ver el resultado de la transacción con **Metamask** y el resultado del guardado en la red de **Ganache**
