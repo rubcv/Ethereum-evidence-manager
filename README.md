@@ -25,8 +25,8 @@ Para ejecutar:
 
 * Dirigirse al directorio SRC con la terminal
 * Ejecutar ./recompile.sh
-      :recompile.sh:
-        : > rm -r -d build
+      + recompile.sh:
+        > rm -r -d build
           > truffle compile
  * Ejecutar Ganache-GUI
  * Ejecutar app.js 
