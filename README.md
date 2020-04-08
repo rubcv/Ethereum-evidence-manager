@@ -3,6 +3,15 @@
 
 Entorno de gestión forense basado en la infraestructura Blockchain de **Ethereum** <br>
 Para una descripción completa sobre el proyecto, ver la memoria.
+### Descripción breve (TL;DR)
+Se trata de un sistema que permite verificar la integridad de evidencias forenses mediante el uso de la tecnología Blockchain, concretamente la Blockchain **Ethereum**. Se compone de una interfaz web (conectada a la Blockchain con el Wallet **Metamask**) mediante la cuál un usuario introduce la URL de la página web que desea evidenciar. El backend envía dicha solicitud a la Blockchain ejecutando una operación del Smart Contract, que accede a la web por medio de un **Oráculo**. El Oráculo realiza un HASH de la página, que es almacenado en la Blockchain para poder contrastar posibles cambios en la página. De esta forma, ante un tribunal, se puede garantizar la inmutabilidad del contenido existente en dicha web.
+
+### Herramientas usadas:
+* Ethereum Framework
+* NodeJS, Express 
+* Truffle suite tools
+* Ganache/TestRPC para la red
+* Metamask Wallet
 
 ### Requisitos:
 * Sistema operativo Linux (Desarrollado sobre Kali Linux 2019.2)
