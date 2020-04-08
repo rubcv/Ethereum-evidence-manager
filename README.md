@@ -1,4 +1,8 @@
 # Diseño e implementación de un entorno de gestión forense basado en Blockchain
+## Trabajo de Fin de Grado, nota: 8.5
+
+Entorno de gestión forense basado en la infraestructura Blockchain de **Ethereum** <br>
+Para una descripción completa sobre el proyecto, ver la memoria.
 
 ### Requisitos:
 * Sistema operativo Linux (Desarrollado sobre Kali Linux 2019.2)
